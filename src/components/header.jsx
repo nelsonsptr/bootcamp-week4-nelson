@@ -1,4 +1,3 @@
-import "./Header.css"
 function Header() {
     return (
         <div className="flex items-center justify-between bg-slate-400">
