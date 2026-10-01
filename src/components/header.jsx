@@ -1,7 +1,7 @@
 function Header() {
     return (
         <header className="header">
-            <h3 className="header-title">Judul Website</h3>
+            <h3 className="header-title">FrontEnd-Dev</h3>
             <nav>
                 <ul className="nav-list">
                     <li><a href="#" className="nav-link">Beranda</a></li>
