@@ -1,15 +1,16 @@
 function Header() {
     return (
-        <div className="flex items-center justify-between bg-slate-400">
-            <h3 className="font-bold text-lg">Judul Website</h3>
-            <nav className="text-slate-800 font-bold text-lg flex gap-10">
-                <ul className="flex gap-5">
-                    <a href="#" className="text-slate-600 hover:text-slate-900">Beranda</a>
-                    <a href="#" className="text-slate-600 hover:text-slate-900">Konten Utama</a>
-                    <a href="#" className="text-slate-600 hover:text-slate-900">Tentang Kami</a>
+        <header className="header">
+            <h3 className="header-title">Judul Website</h3>
+            <nav>
+                <ul className="nav-list">
+                    <li><a href="#" className="nav-link">Beranda</a></li>
+                    <li><a href="#" className="nav-link">Konten Utama</a></li>
+                    <li><a href="#" className="nav-link">Tentang Kami</a></li>
                 </ul>
             </nav>
-        </div>
-    )
+        </header>
+    );
 }
+
 export default Header;

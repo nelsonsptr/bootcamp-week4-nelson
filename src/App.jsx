@@ -13,10 +13,9 @@ function App() {
     <Header />
     <div className="container">
       <main className="Cards-grid">
-        <Card name="nelson" role="FrontEnd Dev" bio="Hidup susah jangan dibuat susah" avatar="./src/assets/org1.png"/>
-        <Card name="putra" role="BackEnd Dev" bio="Hidup susah jangan dibuat susah" avatar="./assets/org1.png"/>
-        <Card name="aryo" role="UI/UX Dev" bio="Hidup susah jangan dibuat susah" avatar="./assets/org3.png"/>
-        <Card name="angga" role="DevOps Engineer" bio="Hidup susah jangan dibuat susah" avatar="./assets/org4.png"/>
+        <Card name="Nelson" role="FrontEnd Dev" bio="Spending Time Wisely" avatar="./src/assets/org1.png"/>
+        <Card name="Putra" role="BackEnd Dev" bio="Do Less, Achieve More" avatar="./src/assets/org2.png"/>
+        <Card name="Angga" role="DevOps Engineer" bio="Focus and Execute" avatar="./src/assets/org4.png"/>
       </main>
     </div>
     <Footer />
